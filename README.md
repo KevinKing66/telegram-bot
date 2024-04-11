@@ -1,4 +1,10 @@
-## Configuración
+## Instalar dependenciar
+Las dependencias solo se instalan unas vez, y para instalarlas deberemos de ejecutar el siguiente comando: 
+```
+sh install.sh
+```
+
+## Configuración de Bot
 Si queremos crear un chat bot en telegram deberemos seguir los siguientes pasos:
 1. Entrar a telegram y buscar "@BotFather"
 2. Enviar un mensaje que diga "/start", este comando nos dará todas las opciones.
