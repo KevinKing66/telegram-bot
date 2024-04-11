@@ -1,8 +1,9 @@
 ## Instalar dependenciar
-Las dependencias solo se instalan unas vez, y para instalarlas deberemos de ejecutar el siguiente comando: 
+Las dependencias solo se instalan unas vez, si tienes linux, para instalarlas deberas de ejecutar el siguiente comando: 
 ```
 sh install.sh
 ```
+si tienes windows, entra al archivo, copia los comandos y los pegas en la consola.
 
 ## Configuración de Bot
 Si queremos crear un chat bot en telegram deberemos seguir los siguientes pasos:
