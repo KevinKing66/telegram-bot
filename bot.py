@@ -10,9 +10,9 @@ BOT_TOKEN = os.environ.get('BOT_TOKEN')
 
 bot = telebot.TeleBot(BOT_TOKEN)
 # Received msg as /start or /hello to 
-@ bot.message_handler(commands=['start', 'hello'])
+@ bot.message_handler(commands=['start'])
 def send_welcome(message):
-    bot.reply_to(message, "Howdy, how are you doing?")
+    bot.reply_to(message, "Bienvenido, Este bot es de prueba")
 
 @bot.message_handler(func=lambda msg: True)
 def echo_all(message):
